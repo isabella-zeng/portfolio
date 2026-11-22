@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>ORA 像素咖啡馆 – Isabella Zeng</title><meta name="description" content="一个关于「此刻谁在这里，谁愿意聊两句」的 iOS 社区设计。"><link rel="icon" href="/portfolio/favicon.svg" type="image/svg+xml"><script>
+      // Apply the saved theme before first paint (and again after each page swap).
+      (function () {
+        const apply = () => {
+          let t = null;
+          try { t = localStorage.getItem('theme'); } catch {}
+          if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+          else delete document.documentElement.dataset.theme;
+        };
+        apply();
+        document.addEventListener('astro:after-swap', apply);
+      })();
+    </script><script>(function(){const base = "/portfolio";
+
+      // Hide the DOM arc cards early when the WebGL arc will draw them (home page only).
+      (function () {
+        try {
+          const p = location.pathname;
+          if (![base + '/', base + '/en/', base + '/en', base].includes(p)) return;
+          if (matchMedia('(prefers-reduced-motion: reduce)').matches || /[?&]gl=0\b/.test(location.search)) return;
+          if (document.createElement('canvas').getContext('webgl2')) document.documentElement.classList.add('gl-pending');
+        } catch {}
+      })();
+    })();</script><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><script type="module" src="/portfolio/_astro/ClientRouter.astro_astro_type_script_index_0_lang.DoXpAe-1.js"></script><link rel="stylesheet" href="/portfolio/_astro/index.DmGQPRw7.css">
+<link rel="stylesheet" href="/portfolio/_astro/_slug_.BfQakhlb.css">
+<style>@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media(prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+</style><script type="module" src="/portfolio/_astro/page.BXF2T39U.js"></script><style>[data-astro-transition-scope="astro-ozaodh2j-1"] { view-transition-name: work-ora; }@layer astro { ::view-transition-old(work-ora) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(work-ora) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(work-ora) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(work-ora) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ozaodh2j-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ozaodh2j-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ozaodh2j-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ozaodh2j-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-ozaodh2j-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-ozaodh2j-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-ozaodh2j-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-ozaodh2j-1"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head> <body> <header class="site-header"> <a class="wordmark" href="/portfolio/" data-magnetic="0.15">Isabella Zeng</a> <div class="header-tools"> <nav class="site-nav" aria-label="网站">  <a class="nav-link nav-ext" href="https://iz-portfolio-six.vercel.app/" target="_blank" rel="noopener" data-magnetic>建筑作品 ↗</a> <a class="nav-link nav-ext" href="mailto:isabella_zeng@outlook.com" data-magnetic>联系我</a> </nav> <a class="lang-switch" href="/portfolio/en/work/ora/" hreflang="en" aria-label="English version" data-magnetic>EN</a> <button class="icon-btn theme-toggle" type="button" aria-label="切换深浅色" data-magnetic data-astro-cid-x3pjskd3> <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true" data-astro-cid-x3pjskd3><path d="M20 14.6A8.5 8.5 0 0 1 9.4 4a8.5 8.5 0 1 0 10.6 10.6Z" data-astro-cid-x3pjskd3></path></svg> <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true" data-astro-cid-x3pjskd3><circle cx="12" cy="12" r="4.2" data-astro-cid-x3pjskd3></circle><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6" data-astro-cid-x3pjskd3></path></svg> </button>  <script type="module">document.addEventListener("click",e=>{if(!e.target.closest(".theme-toggle"))return;const t=document.documentElement.dataset.theme==="light"?"dark":"light";document.documentElement.dataset.theme=t;try{localStorage.setItem("theme",t)}catch{}});</script> </div> </header>  <main class="detail ink-dark" data-index="0" data-glow="#E9A27E" style="--backdrop:#F3E6D8" data-astro-cid-za5eha5l> <article class="text" data-astro-cid-za5eha5l> <div class="head" data-astro-cid-za5eha5l> <a class="label back" href="/portfolio/" data-magnetic data-astro-cid-za5eha5l>← 全部作品</a> <p class="label kicker rv" data-astro-cid-za5eha5l><span class="rv-i" style="--d:0.1s" data-astro-cid-za5eha5l>01 / iOS 社区产品</span></p> <h1 class="is-cjk" data-astro-cid-za5eha5l><span class="rv" data-astro-cid-za5eha5l><span class="rv-i" style="--d:0.16s" data-astro-cid-za5eha5l>ORA 像素咖啡馆</span></span></h1> <p class="tagline rv" data-astro-cid-za5eha5l><span class="rv-i" style="--d:0.26s" data-astro-cid-za5eha5l>一个关于「此刻谁在这里，谁愿意聊两句」的 iOS 社区设计。</span></p> </div> <div class="body" data-astro-cid-za5eha5l> <dl class="facts" data-astro-cid-za5eha5l> <div data-astro-cid-za5eha5l><dt class="label" data-astro-cid-za5eha5l>项目类型</dt><dd data-astro-cid-za5eha5l>iOS 社区产品 · 可交互原型</dd></div><div data-astro-cid-za5eha5l><dt class="label" data-astro-cid-za5eha5l>面向人群</dt><dd data-astro-cid-za5eha5l>在咖啡馆学习、自习或远程工作的人</dd></div><div data-astro-cid-za5eha5l><dt class="label" data-astro-cid-za5eha5l>设计范围</dt><dd data-astro-cid-za5eha5l>信息架构、核心交互、像素视觉系统、iOS 原型与游戏整合</dd></div><div data-astro-cid-za5eha5l><dt class="label" data-astro-cid-za5eha5l>实现工具</dt><dd data-astro-cid-za5eha5l>SwiftUI、SwiftData、Godot</dd></div> </dl> <div class="prose" data-astro-cid-za5eha5l><p>在咖啡馆独自工作时，我想象过这样一个瞬间：看到邻桌也在画设计稿，很想问问对方在做什么，又担心打断人家。ORA 从这个犹豫出发，探索一个社区产品能怎样帮助人们发现同伴，也给想安静工作的人留出空间。</p>
+<h2 id="从一个具体的社交决定开始">从一个具体的社交决定开始</h2>
+<p>如果要向一个陌生人打招呼，我希望事先知道三件事：对方是否在同一家咖啡馆？我们有没有共同的话题？现在联系对方合适吗？</p>
+<p>这三个问题决定了 ORA 的信息顺序。咖啡馆和在场状态帮助用户发现可能遇见的人，职业、技能与动态提供话题，聊天入口则放在了解对方之后。用户可以沿着这条路径主动联系，也可以只看看大家各自在做什么。两种选择都能自然地结束这次使用。</p>
+<h2 id="首页为什么先展示在场的人">首页为什么先展示「在场的人」</h2>
+<p>打开 ORA，问候语下方首先出现的是一排成员头像，随后才是咖啡馆筛选和社区动态。手机首屏的空间有限，把头像放在这里，意味着第一条动态要往下让一点。我愿意做这个取舍，因为对一个刚坐下来的人来说，「今天谁也在这里」比「最近谁发了什么」更贴近眼前的处境。</p>
+<p>动态仍然很重要，它给头像补上了语境。看到 Alice 的头像，只能认出一个人；读到她刚画完引导流程，就有了可以聊的具体话题。用户还可以按咖啡馆筛选，让注意力回到自己关心的地方。</p>
+<h2 id="让一句招呼有个由头">让一句招呼有个由头</h2>
+<p>成员页支持按名字、职业或技能搜索，也可以按在线状态筛选。这样，用户既能找到认识的人，也能从一项共同兴趣开始探索。进入成员详情后，便可以点「打个招呼」开启对话。</p>
+<p>我把这一步放在成员详情里，是为了让用户在发消息之前有机会了解对方。按钮文案也刻意选了日常会说的「打个招呼」。「建立联系」听起来像是要经营一段关系，而一句招呼只需要决定眼下想说什么。</p>
+<h2 id="把活动做成另一种加入社区的方式">把活动做成另一种加入社区的方式</h2>
+<p>主动私聊需要先想好对谁说、说什么。参加一场有主题的活动，则给了人们一个现成的话题。ORA 因此保留了两条参与路径：对某个人感兴趣，可以看成员资料；对某件事感兴趣，可以直接报名活动。</p>
+<p>活动页按日期组织，把时间、名额和报名操作放在一起。卡片上的分格像素条借用了游戏里常见的进度表达：扫一眼能判断活动是否快满，再看人数确认具体名额。报名之后，可以在「我报名的」里找回活动或取消报名。设计覆盖了做决定之前和改变主意之后的两个时刻。</p>
+<h2 id="为什么选择像素风">为什么选择像素风</h2>
+<p>ORA 内嵌了一间可以进入和观察的像素办公室。如果只有游戏采用像素风，用户从社区切入游戏时，还需要重新认识里面的人。因此，我从角色入手，把游戏里的八位角色肖像用作社区成员头像。用户先在动态里认识 Alice，进入办公室时，又能从熟悉的面孔认出她。这个联系比单纯统一配色更重要。</p>
+<p>视觉系统也沿用了这个思路。奶油色背景和深咖啡色描边呼应咖啡馆，像素标题、阶梯状缺角和分格进度条呼应游戏。按钮按下时会向右下方的硬阴影移动，产生轻微下沉的反馈。用户在最普通的一次点击里，也能感到这套界面的性格。</p>
+<h2 id="从社区走进盒中小世界">从社区走进「盒中小世界」</h2>
+<p>用户可以在游戏页点「进入小世界」，手机随即转为横屏，展示完整的办公室场景。退出后回到竖屏社区。游戏有独立入口，浏览动态、找成员和报名活动都有各自完整的使用路径。</p>
+<p>这段切换也是从设计稿走到设备上才真正解决的问题。第一次把游戏嵌进手机时，办公室只显示在屏幕一角。模拟器检查发现，游戏仍在使用桌面端固定的窗口尺寸。调整移动端的显示逻辑后，场景才铺满横屏。这个细节提醒我，跨越两个界面的体验，也包含旋转、等待、退出和返回的每一步。</p>
+<h2 id="原型成果与下一步验证">原型成果与下一步验证</h2>
+<p>最终原型包含首次使用引导，以及动态、成员、活动、聊天和游戏五个入口。社区部分使用本地示例数据，可以体验发布动态、查看成员、报名活动和进入聊天的流程。内嵌游戏基于开源项目 Microverse，本项目的工作集中在社区产品设计、iOS 实现，以及游戏与社区之间的视觉和交互衔接。</p>
+<p>下一步，我最想验证的是「在场」这个词。用户看到头像和状态时，能否分清「在线」「正在这家咖啡馆」和「欢迎聊天」？我会请体验者完成一个具体任务：<strong>找到一位你愿意联系的人，并说出你为什么觉得现在适合打招呼。</strong> 他们依据的是状态、地点，还是一条有共鸣的动态，会直接影响下一版首页该把哪些信息放在一起。</p></div> <ul class="links" data-astro-cid-za5eha5l> <li data-astro-cid-za5eha5l><a href="https://isabella-zeng.github.io/ora-play/" target="_blank" rel="noopener" data-astro-cid-za5eha5l>打开网页演示 ↗</a></li> </ul> <a class="next" href="/portfolio/work/practice/" data-astro-cid-za5eha5l> <span class="label next-label" data-astro-cid-za5eha5l>下一个作品</span> <span class="next-title" data-astro-cid-za5eha5l>Practice</span> </a> </div> </article> <section class="stage" aria-label="ORA 像素咖啡馆 演示" data-astro-cid-za5eha5l data-astro-transition-scope="astro-ozaodh2j-1"> <phone-demo class="phone-demo" data-astro-cid-v3ukzxoc="true"> <div class="phone" data-astro-cid-v3ukzxoc> <div class="screen" data-astro-cid-v3ukzxoc> <img src="/portfolio/_astro/cover.Df1ur1Ak_1YKy45.webp" srcset="/portfolio/_astro/cover.Df1ur1Ak_ZH0kN2.webp 400w, /portfolio/_astro/cover.Df1ur1Ak_1YKy45.webp 780w" alt sizes="360px" loading="eager" data-astro-cid-v3ukzxoc="true" decoding="async" fetchpriority="auto" width="780" height="1688" class="poster"> <iframe src="https://isabella-zeng.github.io/ora-play/?embed&skip" title="ORA 像素咖啡馆 可交互演示" allow="autoplay; fullscreen" loading="eager" data-astro-cid-v3ukzxoc></iframe> </div> </div> <div class="demo-bar" data-astro-cid-v3ukzxoc> <p data-astro-cid-v3ukzxoc>直接点按就能用，刷新后会重置。</p> <div class="demo-actions" data-astro-cid-v3ukzxoc> <button type="button" class="restart" data-astro-cid-v3ukzxoc>重新开始</button> <a href="https://isabella-zeng.github.io/ora-play/" target="_blank" rel="noopener" data-astro-cid-v3ukzxoc>在新窗口打开</a> </div> </div> </phone-demo>  <script type="module">class s extends HTMLElement{connectedCallback(){const e=this.querySelector("iframe"),t=()=>this.classList.add("is-loaded");e.addEventListener("load",t);try{e.contentDocument?.readyState==="complete"&&e.contentDocument.body?.childElementCount&&t()}catch{}this.querySelector(".restart")?.addEventListener("click",()=>{this.classList.remove("is-loaded"),e.src=e.src})}}customElements.get("phone-demo")||customElements.define("phone-demo",s);</script>    </section> </main>  <canvas class="arc-gl" aria-hidden="true" data-astro-transition-persist="arc-gl"></canvas> <canvas class="bg-glow" aria-hidden="true" data-astro-transition-persist="bg-glow"></canvas> <div class="cursor" aria-hidden="true" data-astro-transition-persist="cursor"><span class="cursor-label"></span></div> <script type="module" src="/portfolio/_astro/Base.astro_astro_type_script_index_0_lang.wi2wa2di.js"></script> </body> </html> <script type="module" src="/portfolio/_astro/WorkPage.astro_astro_type_script_index_0_lang.CYjIU1kQ.js"></script> 

@@ -1,0 +1,1 @@
+import{b as t}from"./bg-glow.DbcACTOU.js";document.addEventListener("astro:page-load",()=>{const e=document.querySelector("main.detail");if(e){try{sessionStorage.setItem("flow-index",e.dataset.index??"0")}catch{}t().setColor(e.dataset.glow)}});
